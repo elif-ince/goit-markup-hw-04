@@ -28,7 +28,6 @@ a {
 
 .page-title {
   font-family: "Roboto", sans-serif;
-  background-color: #2E2F42;
   color: hsl(0, 100%, 100%);
   font-size: 56px;
   font-weight: bold;
@@ -292,7 +291,7 @@ padding-bottom: 120px;
 justify-content: center;
   }
 
-.portfolio:hover::after {
+.portfolio:hover {
   box-shadow:
       0 2px 1px rgba(46, 47, 66, 0.08);
     /*left shadow ??*/
@@ -327,12 +326,16 @@ footer {
   letter-spacing: 0.02em;
   text-decoration: none;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding-top: 100px;
   padding-bottom: 100px;
   padding-left: 156px;
-  
-  
+}
+
+.smedia-footer {
+  padding-top: 100px;
+    padding-bottom: 132px;
+    padding-left: 120px;
 }
 
 .web-text {
