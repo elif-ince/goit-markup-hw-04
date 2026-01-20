@@ -176,6 +176,26 @@ padding-bottom: 188px;
   
 }
 
+  .principles-icons {
+  display: flex;
+  align-content: center;
+  width: 264px;
+  height: 122px;
+  fill: #2e2f42;
+  border: 1px solid rgba(142, 143, 153, 1);
+  border-radius: 4px;
+  background-color: rgba(244, 244, 253, 1);
+  padding-bottom: 24px;
+  padding-top: 24px;
+  padding-left: 100px;
+  padding-right: 100px;
+     }
+
+  .principles-icons:hover {
+  fill: #4d5ae5; 
+     }
+
+  
 .company-principles .sub-item {
   font-family: "Roboto";
   background-color: #FFFFF;
@@ -188,6 +208,8 @@ padding-bottom: 188px;
   box-sizing: border-box;
   width: 264;
   height: 104;
+  padding-top: 8px;
+  padding-bottom: 8px;
   }
 
   .personalfoto-duty { 
@@ -214,6 +236,20 @@ padding-bottom: 188px;
       align-content: center;
       justify-content: center;
       align-items: center;
+     }
+
+     .media-icons {
+      display: flex;
+      flex-direction: row;
+      box-sizing: border-box;
+      padding-top: 8px;
+      padding-bottom: 32px;
+      gap: 24px;
+      text-align: center;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      fill: #4d5ae5;
      }
 
 
@@ -291,7 +327,7 @@ padding-bottom: 120px;
 justify-content: center;
   }
 
-.portfolio:hover {
+.portfolio-list:hover {
   box-shadow:
       0 2px 1px rgba(46, 47, 66, 0.08);
     /*left shadow ??*/
@@ -337,6 +373,20 @@ footer {
     padding-bottom: 132px;
     padding-left: 120px;
 }
+
+.media-iconsft {
+      display: flex;
+      flex-direction: row;
+      box-sizing: border-box;
+      padding-top: 8px;
+      padding-bottom: 132px;
+      gap: 16px;
+      text-align: center;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      fill: #4d5ae5;
+     }
 
 .web-text {
 color: #4D5AE5;
