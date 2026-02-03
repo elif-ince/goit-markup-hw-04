@@ -138,12 +138,25 @@ a {
   text-align: right;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  
   }
 
 .site-nav .link:hover, .site-nav .link:active
 {
 color: #404BBF;
+  }
+
+  .link {
+    display: inline-block;
+     }
+
+  .link::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 48pxfit;
+    background-color: #404BBF;
+    border-radius: 2px;
+    margin-top: 10px;
   }
 
 .page-contacts .link:hover,
@@ -242,14 +255,19 @@ padding-bottom: 188px;
 
      
      .social-media {
+      
+           
+          }
+
+    .icon {
       display: flex;
       gap: 24px;
+      flex-direction: row;
       align-content: center;
       justify-content: center;
       align-items: center;
       padding-top: 8px;
       padding-bottom: 32px;
-           
           }
 
      .media-icons {
