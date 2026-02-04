@@ -145,11 +145,11 @@ a {
 color: #404BBF;
   }
 
-  .link {
+  .linknav {
     display: inline-block;
      }
 
-  .link::after {
+  .linknav::after {
     content: "";
     display: block;
     height: 4px;
@@ -251,16 +251,9 @@ padding-bottom: 188px;
       justify-content: center;
       align-items: center;
      }
-
-
      
-     .social-media {
-      
-           
-          }
-
-    .icon {
-      display: flex;
+     .icon {
+      display: inline-flex
       gap: 24px;
       flex-direction: row;
       align-content: center;
