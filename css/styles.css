@@ -277,6 +277,8 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 transition-delay: 0ms, 250ms;
 background-color: #4D5AE5;
       border-radius: 50%;
+      width: 40px;
+      height: 40px;
      }
 
 
@@ -399,36 +401,7 @@ footer {
   padding-left: 156px;
 }
 
-
-.social-mediaft {
-      display: flex;
-      gap: 24px;
-      align-content: center;
-      justify-content: center;
-      align-items: center;
-      padding-top: 8px;
-      padding-bottom: 32px;
-        
-          }
-
-     .media-iconsft {
-      align-content: center;
-      justify-content: center;
-      align-items: center;
-      transition-property: color, background-color;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-transition-delay: 0ms, 250ms;
-background-color: #4D5AE5;
-      border-radius: 50%;
-     }
-
-     .media-iconsft:hover {
-  color: #F4F4FD;
-  background-color: #31D0AA;
-  transform: rotate(20deg);
-     }
-
+ 
      .smedia-footer{
   padding-left: 120px;
      }
